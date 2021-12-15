@@ -11,9 +11,31 @@
 	padding-top: 60px;
 }
 
+.container-about{
+	margin: 0px auto;
+	max-width: 1440px;
+}
+
+.container-team{
+	margin: 0px auto;
+	max-width: 1440px;
+}
+
 #home{
 	background: #89509C;
 	height: 600px;
+	text-align: center;
+}
+
+#about{
+	background: #17c2a4;
+	height: 751px;
+	text-align: center;
+}
+
+#team{
+	color: #E7F1F8;
+	height: 915px;
 	text-align: center;
 }
 
@@ -39,6 +61,34 @@
 	margin-top: 142px;
 }
 
+.about{
+	text-align: center;
+	font-family: Titillium Web;
+	color: white;
+	font-size: 40px;
+	font-weight: 700px;
+	padding-top: 120px;
+}
+
+.row1{
+	padding-bottom: 60px;
+}
+
+.row2{
+	padding-bottom: 26px;
+	font-family: Titillium Web;
+	font-size: 24px;
+	font-weight: 700;
+	color: white;
+}
+
+.row3{
+	font-size: 16px;
+	font-family: Titillium Web;
+	font-weight: 300;
+	color: white;
+}
+
 .button{
 	display: inline-block;
 	text-transform: uppercase;
@@ -60,10 +110,6 @@
 
 header{
 	overflow: hidden;
-}
-
-nav{
-
 }
 
 nav ul{
@@ -91,4 +137,54 @@ nav ul li a{
 
 nav ul li a:hover,.active{
 	background-color: #643a79;
+}
+
+.hr-about{
+	width: 70px;
+	height: 4px;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 23px;
+	background-color: #14a58c;
+	border-width: 0px;
+}
+
+.hr-team{
+	width: 70px;
+	height: 4px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 26px;
+	background-color: #BDD1DF;
+	border-width: 0px;
+}
+
+.h1-about{
+	color: white;
+	font-size: 18px;
+	font-family: Titillium Web;
+	font-weight: 400;
+	margin-bottom: 80px;
+}
+
+.h1-team{
+	color: #3c4761;
+	font-size: 18px;
+	font-family: Titillium Web;
+	font-weight: 400;
+	margin-bottom: 80px;
+}
+
+.team{
+	color: #3c4761;
+	text-align: center;
+	font-family: Titillium Web;
+	font-size: 40px;
+	font-weight: 700px;
+	padding-top: 120px;
+}
+
+table{
+	width: 75%;
+	margin: auto;
 }
