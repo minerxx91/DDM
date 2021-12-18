@@ -3,6 +3,7 @@
 	padding: 0px;
 	font-size: 16px;
 	box-sizing: border-box;
+	font-family: Titillium Web;
 }
 
 .container{
@@ -29,7 +30,7 @@
 
 #about{
 	background: #17c2a4;
-	height: 751px;
+	height: 813px;
 	text-align: center;
 }
 
@@ -53,7 +54,6 @@
 
 .title{
 	text-align: center;
-	font-family: Titillium Web;
 	color: white;
 	font-size: 40px;
 	line-height: 40px;
@@ -63,7 +63,6 @@
 
 .about{
 	text-align: center;
-	font-family: Titillium Web;
 	color: white;
 	font-size: 40px;
 	font-weight: 700px;
@@ -76,7 +75,6 @@
 
 .row2{
 	padding-bottom: 26px;
-	font-family: Titillium Web;
 	font-size: 24px;
 	font-weight: 700;
 	color: white;
@@ -84,16 +82,41 @@
 
 .row3{
 	font-size: 16px;
-	font-family: Titillium Web;
 	font-weight: 300;
 	color: white;
+}
+
+.row4{
+	width: 200px;
+	height:200px;
+	border-radius:50%;
+}
+
+.row5{
+	color: #27283D;
+	font-size: 24px;
+	font-weight: 700;
+	padding-bottom: 16px;
+}
+
+.row6{
+	color: #30BAE7;
+	font-size: 16px;
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+
+.row7{
+	color: #3C4761;
+	font-size: 16px;
+	font-weight: 300;
+	padding-bottom: 30px;
 }
 
 .button{
 	display: inline-block;
 	text-transform: uppercase;
 	text-decoration: none;
-	font-family: Titillium Web;
 	line-height: 18px;
 	font-size: 18px;
 	color: white;
@@ -126,7 +149,6 @@ nav ul li a{
 	display: block;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-family: Titillium Web;
 	line-height: 16px;
 	font-size: 16px;
 	color: white;
@@ -162,7 +184,6 @@ nav ul li a:hover,.active{
 .h1-about{
 	color: white;
 	font-size: 18px;
-	font-family: Titillium Web;
 	font-weight: 400;
 	margin-bottom: 80px;
 }
@@ -170,7 +191,6 @@ nav ul li a:hover,.active{
 .h1-team{
 	color: #3c4761;
 	font-size: 18px;
-	font-family: Titillium Web;
 	font-weight: 400;
 	margin-bottom: 80px;
 }
@@ -178,13 +198,28 @@ nav ul li a:hover,.active{
 .team{
 	color: #3c4761;
 	text-align: center;
-	font-family: Titillium Web;
 	font-size: 40px;
 	font-weight: 700px;
-	padding-top: 120px;
+	padding-top: 126px;
 }
 
-table{
+.table1{
 	width: 75%;
 	margin: auto;
+}
+
+.table2{
+	width: 75%;
+	margin: auto;
+	table-layout: fixed;
+}
+
+i{
+	margin: 0px 4px 0px 4px;
+	padding-top: 7px;
+	color: white;
+	background-color: #BDD1DF;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
 }
