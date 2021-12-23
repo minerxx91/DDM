@@ -31,6 +31,11 @@
 	max-width: 1440px;
 }
 
+.container-review{
+	margin: 0px auto;
+	max-width: 1440px;
+}
+
 #home{
 	background: #89509C;
 	height: 600px;
@@ -58,6 +63,12 @@
 #portfolio{
 	background: #FFDD99;
 	height: 1520px;
+	text-align: center;
+}
+
+#review{
+	background: #D74680;
+	height: 895px;
 	text-align: center;
 }
 
@@ -396,4 +407,64 @@ i{
 	border-radius: 5px;
 	border-bottom: 4px solid #14a58c;
 	margin: 0px 0px 82px 0px;
+}
+
+.review{
+	padding-top: 120px;
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+}
+
+.hr-review{
+	width: 70px;
+	height: 4px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 26px;
+	background-color: #b15e98;
+	border-width: 0px;
+}
+
+.h1-review{
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 80px;
+}
+
+.table5{
+	width: 75%;
+	margin: auto;
+	margin-bottom: 130px;
+}
+
+.circle{
+	border-radius: 100%;
+	width: 95px;
+	height: 95px;
+	padding-right: 10px;
+}
+
+.opinion{
+	font-size: 21px;
+	color: white;
+	font-style: italic;
+	text-align: left;
+	padding: 0px 0px 10px 0px;
+}
+
+.name{
+	color: white;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.position{
+	color: #FFDD99;
+	text-align: left;
+	font-size: 18px;
+	font-weight: 400;
+	padding-bottom: 100px;
 }
