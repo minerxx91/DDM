@@ -36,6 +36,16 @@
 	max-width: 1440px;
 }
 
+.container-text{
+	margin: 0px auto;
+	max-width: 1440px;
+}
+
+.container-foot{
+	margin: 0px auto;
+	max-width: 1440px;	
+}
+
 #home{
 	background: #89509C;
 	height: 600px;
@@ -70,6 +80,18 @@
 	background: #D74680;
 	height: 895px;
 	text-align: center;
+}
+
+#text{
+	background: #134f9e;
+	height: 950px;
+	text-align: center;
+}
+
+#foot{
+	background: #223f9e;
+	height: 100px;
+	text-align: center;	
 }
 
 .left{
@@ -467,4 +489,109 @@ i{
 	font-size: 18px;
 	font-weight: 400;
 	padding-bottom: 100px;
+}
+
+.text{
+	padding-top: 120px;
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+}
+
+.hr-text{
+	width: 70px;
+	height: 4px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 26px;
+	background-color: #223f9e;
+	border-width: 0px;
+}
+
+.h1-text{
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 80px;
+}
+
+.text-list{
+	width: 75%;
+	margin: auto;
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+.text-li{
+	display: inline-block;
+}
+
+.text-input{
+	width: 365px;
+	height: 50px;
+	padding-left: 10px;
+	background-color: #223f9e;
+	color: white;
+	border-width: 0px;
+	border-radius: 5px;
+	outline: none;
+}
+
+.space{
+	margin-right: 20px;
+}
+
+.text-input2{
+	display: inline-block;
+	width: 755px;
+	height: 200px;
+	min-height: 200px;
+	padding-left: 10px;
+	background-color: #223f9e;
+	color: white;
+	border-width: 0px;
+	border-radius: 5px;
+	outline: none;
+	padding-bottom: 150px;
+	padding-top: 10px;
+	resize: vertical;
+}
+
+.send{
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	line-height: 18px;
+	font-size: 18px;
+	color: white;
+	background-color: #1783c2;
+	font-weight: 700;
+	top: 50%;
+	left: 50%;
+	padding: 28px 60px 28px 60px;
+	border-radius: 5px;
+	border-bottom: 4px solid #176fc2;
+	margin: 50px 0px 100px 0px;
+}
+
+.list-foot{
+	height: auto;
+	list-style-type: none;
+	line-height: 95px;
+}
+
+.li-foot{
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.a-foot{
+	cursor: pointer;
+	font-size: 23px;
+	color: white;
+	font-weight: 600;
+}
+
+.a-foot:hover{
+	color: #4eaee6;
 }
